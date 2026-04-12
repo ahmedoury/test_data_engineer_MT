@@ -1,0 +1,11 @@
+# creation de snapshot pour tracker les changements d'email et de pays des utilisateurs 
+snapshots:
+  - name: snapshot_clients
+    relation: ref("clients")
+    config: 
+      schema: snapshots
+      unique_key: client_id
+      strategy: check
+      check_cols:
+        - email
+        - country 

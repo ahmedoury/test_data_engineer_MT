@@ -1,0 +1,24 @@
+version: 2 
+
+models:
+  - name: clients
+    description: This table list the clients informations 
+    columns:
+      - name: email
+        description: this column contain email of the clients 
+        tests:
+          - unique
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type: 
+              arguments: 
+                column_type: string
+      - name: created_at
+        description: give the first date of the client registration 
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type: 
+              arguments: 
+                column_type: string
+          
+          
+          

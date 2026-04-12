@@ -1,0 +1,6 @@
+version: 2 
+sources: 
+  - name: raw_data # Fictive table declaration, I have called her raw_events
+    schema: raw_data
+    tables:
+      - name: raw_clients_events
