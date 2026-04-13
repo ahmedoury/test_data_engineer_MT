@@ -1,19 +1,7 @@
-Welcome to your new dbt project!
+Reponse au Test technique
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-
-
-git connection
+Ce test contient  3 grandes partie une 
+* Questions : Pour cette partie les éléments serons dans le dossier **questions** à l'intérieur duquel se trouve un fichier **reponses.md** qui contient les reponses de la question 1 à ala question 5
+* SQL/dbt : dbt viens avec beaucoup de fichier et dossiers. cependant le modele client est dans le dossier **models** et dans le fichier **dim/clients.sql**
+* Python : Le code python se retrouve dans le dossier **python** qui lui même contient le fichier **build_client.py** dans lequel se trouve la fonction avec toutes les règles attendues
 
