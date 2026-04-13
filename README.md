@@ -7,6 +7,5 @@ Les tests ont été implémenter dans le fichier **schema.yml**
 Le fichier source defini la table source de notre modèle sql. (on aurai pu mettre la data aussi dans mais la declaration dans source me parraissait plus interssante)
 Un snapshot aussi a été mis en place dans le dossier **snapshot** et dans le fichier **scd_clients.yml**
 
-Un snapshot a été
 * Python : Le code python se retrouve dans le dossier **python** qui lui même contient le fichier **build_client.py** dans lequel se trouve la fonction avec toutes les règles attendues
 
